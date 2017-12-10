@@ -1,0 +1,27 @@
+import numpy as np
+import pylab as pl
+
+fp = open("results.txt", "r")
+data = fp.readline()
+x1 = data.split()
+x1 = map(int, x1)
+data = fp.readline()
+y1 = data.split()
+y1 = map(int, y1)
+data = fp.readline()
+x2 = data.split()
+x2 = map(int, x2)
+data = fp.readline()
+y2 = data.split()
+y2 = map(int, y2)
+fp.close()
+
+pl.plot(x1, y1, 'ko')
+pl.plot(x2, y2, 'r')
+pl.title('Convex Hull of a Set Q of Points')
+pl.xlabel('x-axis')
+pl.ylabel('y-axis')
+pl.xlim(-110, 110)
+pl.ylim(-110, 110)
+pl.grid()
+pl.show()
