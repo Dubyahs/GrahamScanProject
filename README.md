@@ -5,6 +5,11 @@
  This was written as a project for an undergraduate level algorithms course.  
  The program is written in C and the results are printed using Matplotlib in Python.  
  
+ <p align="left">
+     <img width="592" height="466"
+          title="Ten Points Example" src="10pts.PNG"> 
+</p>
+ 
  ## Code Structure ##  
  **convex_hull.c**  
   - Takes file input from stdin, file containing a set of points.  

@@ -1,4 +1,3 @@
-import numpy as np
 import pylab as pl
 
 fp = open("results.txt", "r")
